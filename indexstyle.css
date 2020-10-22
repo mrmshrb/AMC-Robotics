@@ -1,14 +1,6 @@
 body{
-  h1 {text-align: center;}
-  ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
- position: fixed;
-  top: 0;
-  width: 100%;
-}
-  ul {
+ h1 {text-align: center;}
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -28,7 +20,6 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
 }
