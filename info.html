@@ -4,13 +4,25 @@
     <link href="style.css" rel="stylesheet">
   </head>
 <body>
-  <nav>
-  <ul>
-    <li><a href="info.html">Info</a></li>
-    <li style="float:right"><a href="about-us.html">About Us</a></li>
-    <li style="float:right"><a href="index.html">Home</a></li>
-  </ul>
-</nav>
+ <div id="navbar">
+  <a class="active" href="index.html">Home</a>
+  <a href="info.html)" style="float:right">Info</a>
+  <a href="about-us.html" style="float:right">About Us</a>
+</div>
+  <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 </body>
 </html>
 
