@@ -4,20 +4,6 @@
 <link href="style.css" rel="stylesheet">
 </head>
 <body>
- <script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
  <div id="navbar">
   <a class="active" href="javascript:void(0)">Home</a>
   <a href="javascript:void(0)">News</a>
@@ -44,5 +30,19 @@ function myFunction() {
   </div>
     <h2>Working Online<br></h2>
     <h2>Links</h2>
+  <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 </body>
 </html>
