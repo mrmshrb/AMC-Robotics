@@ -9,17 +9,17 @@
 .ocard:hover {
   box-shadow: 0 16px 32px 0 rgba(0,0,0,1);
 }
+/* Member card styling (about us) */
 .mcard {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
   width: 70%;
   border-radius: 20px;
 }
-/* Member card styling (about us) */
 .mcard:hover {
   box-shadow: 0 16px 32px 0 rgba(0,0,0,1);
 }
-
+/* Homepage Cards */
 .card {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
