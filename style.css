@@ -1,3 +1,4 @@
+/*Officer card styling (about us) */
 .ocard {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
@@ -14,7 +15,7 @@
   width: 70%;
   border-radius: 20px;
 }
-
+/* Member card styling (about us) */
 .mcard:hover {
   box-shadow: 0 16px 32px 0 rgba(0,0,0,1);
 }
@@ -29,7 +30,7 @@
 .card:hover {
   box-shadow: 0 16px 32px 0 rgba(0,0,0,1);
 }
-
+/* Curvature for all cards */
 img {
   border-radius: 20px 20px 0 0;
 }
@@ -37,9 +38,7 @@ img {
 .container {
   padding: 2px 16px;
 }
-h1 {text-align: center;}
-h2 {text-align: center;}
-h4 {font-size: 24px;}
+
 .caption{
 font-size: 14px;
 }
@@ -118,3 +117,6 @@ a:hover {
 a:active {
   color: red;
 }
+h1 {text-align: center;}
+h2 {text-align: center;}
+h4 {font-size: 24px;}
