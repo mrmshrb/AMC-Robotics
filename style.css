@@ -1,7 +1,7 @@
 .ocard {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
-  width: 40%;
+  width: 50%;
   border-radius: 20px;
 }
 
@@ -11,7 +11,7 @@
 .mcard {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
-  width: 40%;
+  width: 70%;
   border-radius: 20px;
 }
 
