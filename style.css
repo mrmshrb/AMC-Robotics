@@ -86,7 +86,7 @@ a{
   text-decoration: none;
 }
 a:visited {
-  color: red;
+  color: black;
 }
 
 /* mouse over link */
@@ -96,5 +96,5 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: black;
+  color: red;
 }
