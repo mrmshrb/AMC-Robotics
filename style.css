@@ -2,7 +2,7 @@
 .card {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 20%;
+  width: 40%;
   border-radius: 20px;
 }
 
@@ -19,6 +19,9 @@ img {
 }
 h1 {text-align: center;}
 h2 {text-align: center;}
+.caption{
+font-size: 24px;
+}
 body {
   margin: 0;
   font-size: 28px;
@@ -71,4 +74,8 @@ body {
 }
 .challenges {
     display: inline; /* Or inline-block */
+}
+#challenges{
+margin-left: auto;
+  margin-right: auto;
 }
