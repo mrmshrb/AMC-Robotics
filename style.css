@@ -22,7 +22,7 @@
 .card {
   box-shadow: 0 20px 40px 0 rgba(255,0,0,0.9);
   transition: 0.3s;
-  width: 70%;
+  width: 50%;
   border-radius: 20px;
 }
 
