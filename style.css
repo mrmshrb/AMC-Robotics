@@ -58,6 +58,8 @@ body {
 #navbar {
   overflow: hidden;
   background-color: #333;
+  opacity: 0.9; 
+  filter: alpha(opacity=50);
 }
 
 #navbar a {
