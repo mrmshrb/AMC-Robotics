@@ -3,7 +3,7 @@
   transition: 0.3s;
   width: 300px;
   border-radius: 20px;
-  margin-top:80px;
+  margin-top:30px;
 }
 
 .ocard:hover {
@@ -156,6 +156,14 @@ a:active {
 h1 {text-align: center; color: #FFFFFF;}
 h2 {text-align: center; color: #FFFFFF;}
 h4 {font-size: 24px;}
+#ourteam{
+  color:black;
+  font-size:60px;
+  text-align: center;
+}
+#topaboutus{
+  margin-top:80px;
+}
 #dellheading{
   text-align: center;
   margin: auto;
