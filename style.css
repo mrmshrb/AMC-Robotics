@@ -1,8 +1,9 @@
 .ocard {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
-  width: 50%;
+  width: 300px;
   border-radius: 20px;
+  margin-top:80px;
 }
 
 .ocard:hover {
@@ -12,8 +13,9 @@
 .mcard {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
-  width: 70%;
+  width: 300px;
   border-radius: 20px;
+  margin-top:30px;
 }
 .mcard:hover {
   box-shadow: 0 16px 32px 0 rgba(0,0,0,1);
@@ -22,7 +24,7 @@
 .card {
   box-shadow: 0 20px 40px 0 rgba(255,0,0,0.9);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
   border-radius: 20px;
 }
 
@@ -31,9 +33,35 @@
 }
 /* Curvature for all cards */
 img {
+  width:300px;
+  height:auto;
   border-radius: 20px 20px 0 0;
 }
+#Dellgif{
+  width: 50%;
+  margin-top:1%;
+  border-radius: 20px 20px 20px 20px;
+}
+#firstheading{
+  margin-top: 5%;
+}
+body, html {
+  height: 100%;
+}
 
+#dellparallax {
+  /* The image used */
+  background-image: url('DellRecording.gif');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .container {
   padding: 2px 16px;
 }
@@ -99,14 +127,16 @@ body {
   padding-top: 60px;
 }
 .challenges {
+  width:100%;
     display: inline; /* Or inline-block */
 }
 #challenges{
+width:90%;
 margin-left: auto;
   margin-right: auto;
 }
 a{
-  color: white; 
+  color: white;
   text-decoration: none;
 }
 a:visited {
@@ -122,6 +152,25 @@ a:hover {
 a:active {
   color: red;
 }
+
 h1 {text-align: center; color: #FFFFFF;}
 h2 {text-align: center; color: #FFFFFF;}
 h4 {font-size: 24px;}
+#dellheading{
+  text-align: center;
+  margin: auto;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+#TI{
+  margin-top:5%;
+  background-color: red; /* For browsers that do not support gradients */
+ background-image: linear-gradient(to bottom right, red, orange);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
