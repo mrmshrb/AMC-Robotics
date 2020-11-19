@@ -24,18 +24,65 @@
 .card {
   box-shadow: 0 20px 40px 0 rgba(255,0,0,0.9);
   transition: 0.3s;
-  width: 100%;
   border-radius: 20px;
+  width:90%;
+  margin:auto;
+}
+.widecard{
+  box-shadow: 0 20px 40px 0 rgba(255,0,0,0.9);
+  transition: 0.3s;
+  border-radius: 20px;
+  width:400px;
+  padding:50px;
+  margin:auto;
+  height:200px
+}
+#widecard2{
+  box-shadow: 0 20px 40px 0 rgba(255,0,0,0.9);
+  transition: 0.3s;
+  border-radius: 20px;
+  width:400px;
+  padding:50px;
+  margin:auto;
+  height:100px
 }
 
 .card:hover {
   box-shadow: 0 64px 128px 0 rgba(255,0,0,1);
 }
+.widecard:hover {
+  box-shadow: 0 64px 128px 0 rgba(255,0,0,1);
+}
+#widecard2:hover {
+  box-shadow: 0 64px 128px 0 rgba(255,0,0,1);
+}
 /* Curvature for all cards */
-img {
+.profilepics {
   width:300px;
   height:auto;
   border-radius: 20px 20px 0 0;
+}
+.container {
+  padding: 2px 16px;
+}
+
+.caption{
+font-size: 14px;
+}
+.home{
+	margin: 0;
+  font-size: 28px;
+  font-family: Roboto, Helvetica, sans-serif;
+  background-color: black;
+}
+#amcsquare{
+  width:150px;
+  height:auto;
+  padding: 20px;
+vertical-align: text-top;
+}
+#amcp{
+  color:white;
 }
 #Dellgif{
   width: 50%;
@@ -62,18 +109,18 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container {
-  padding: 2px 16px;
-}
+#TIparallax {
+  /* The image used */
+  background-image: url('TIrecording.gif');
 
-.caption{
-font-size: 14px;
-}
-.home{
-	margin: 0;
-  font-size: 28px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #000000
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 body {
   margin: 0;
@@ -158,17 +205,26 @@ h2 {text-align: center; color: #FFFFFF;}
 h4 {font-size: 24px;}
 #ourteam{
   color:black;
-  font-size:60px;
+  font-size:50px;
   text-align: center;
+}
+#githubhead{
+  color: #FFFFFF;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 60px;
+  font-weight:bold;
 }
 #topaboutus{
   margin-top:80px;
 }
-#dellheading{
-  text-align: center;
-  margin: auto;
-  font-size: 50px;
+.dellheading{
   color: #FFFFFF;
+  opacity:0.8;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 60px;
+  font-weight:bold;
 }
 
 #TI{
@@ -181,4 +237,8 @@ h4 {font-size: 24px;}
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.centered2 {
+  margin:auto;
+  padding:350px;
 }
