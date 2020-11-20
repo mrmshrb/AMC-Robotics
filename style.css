@@ -206,7 +206,7 @@ body {
   width:100%;
     display: inline; /* Or inline-block */
 }
-.challenges{
+#challenges{
 width:90%;
 margin-left: auto;
   margin-right: auto;
