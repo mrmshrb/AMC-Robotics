@@ -46,7 +46,26 @@
   margin:auto;
   height:100px
 }
+.infocard1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 50%;
+  border-radius: 2px;
+}
 
+.infocard2 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 50%;
+  border-radius: 2px;
+}
+
+.infocard3 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 50%;
+  border-radius: 2px;
+}
 .card:hover {
   box-shadow: 0 64px 128px 0 rgba(255,0,0,1);
 }
@@ -75,6 +94,14 @@ font-size: 14px;
   font-family: Roboto, Helvetica, sans-serif;
   background-color: black;
 }
+
+#info {
+	margin: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff
+}
+
 #amcsquare{
   width:150px;
   height:auto;
