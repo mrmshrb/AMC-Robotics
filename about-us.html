@@ -1,183 +1,311 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link href="style.css" rel="stylesheet" />
-  </head>
-  <body id="aboutuscolor">
-    <div id="navbar">
-      <a class="active" href="about-us.html">About Us</a>
-      <a href="index.html" style="float:right">Home</a>
-      <a href="info.html" style="float:right">Info</a>
-    </div>
+/* ABOUT US */
+.ocard {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 300px;
+  border-radius: 20px;
+  margin-top:30px;
+}
 
-    <div id="aucolor">
-      <h1>
-        About Us
-      </h1>
-    </div>
+.ocard:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,1);
+}
+/* Member card styling (about us) */
+.mcard {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 300px;
+  border-radius: 20px;
+  margin-top:30px;
+}
+.mcard:hover {
+  box-shadow: 0 16px 32px 0 rgba(0,0,0,1);
+}
+.profilepics {
+  width:300px;
+  height:auto;
+  border-radius: 20px 20px 0 0;
+}
+.container {
+  padding: 2px 16px;
+}
 
-    <div id="aboutustext">
-      <p>
-        AMC Robotics, the official Robotics Team of ACCEL Middle College, is a
-        student-led organization that enables students to explore STEM pathways
-        through hands-on mechanical and software design and development. Also
-        known as VEX Team 47731M, it was founded in 2020, and we are a dedicated
-        group of students passionate about technology and design. We learn and
-        practice engineering principles and techniques over the course of
-        designing, building, and programming our competition-ready robot.
-        Founded on principles of dedication, innovation, and collaboration, our
-        team is open to all students of ACCEL Middle College (and some East Side
-        Union High School District students), regardless of prior experience.
-      </p>
-    </div>
+.caption{
+font-size: 14px;
+}
+/* HOMEPAGE */
+.card {
+  box-shadow: 0 20px 40px 0 rgba(255,0,0,0.9);
+  transition: 0.3s;
+  border-radius: 20px;
+  width:90%;
+  margin:auto;
+}
+.widecard{
+  box-shadow: 0 20px 40px 0 rgba(255,0,0,0.9);
+  transition: 0.3s;
+  border-radius: 20px;
+  width:400px;
+  padding:50px;
+  margin:auto;
+  height:200px
+}
+#widecard2{
+  box-shadow: 0 20px 40px 0 rgba(255,0,0,0.9);
+  transition: 0.3s;
+  border-radius: 20px;
+  width:400px;
+  padding:50px;
+  margin:auto;
+  height:100px
+}
+.infocard1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 50%;
+  border-radius: 2px;
+}
 
-    <h2 id="meetteam" class="center"><br />Meet Our Team</h2>
+.infocard2 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 50%;
+  border-radius: 2px;
+}
 
-    <br /><br />
+.infocard3 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 50%;
+  border-radius: 2px;
+}
+.card:hover {
+  box-shadow: 0 64px 128px 0 rgba(255,0,0,1);
+}
+.widecard:hover {
+  box-shadow: 0 64px 128px 0 rgba(255,0,0,1);
+}
+#widecard2:hover {
+  box-shadow: 0 64px 128px 0 rgba(255,0,0,1);
+}
 
-    <table class="challenges">
-      <!-- Yassin's card -->
-      <tr>
-        <th valign="middle" align="center">
-          <div class="ocard">
-            <img
-              src="YassinSquare.jpg"
-              alt="Yassin Kortam"
-              style="width:100%"
-            />
-            <div class="container">
-              <h4><b>Yassin Kortam</b></h4>
-              <p class="caption">President & Co Founder<br /><br /></p>
-            </div>
-          </div>
-        </th>
+.home{
+	margin: 0;
+  font-size: 28px;
+  font-family: Roboto, Helvetica, sans-serif;
+  background-color: black;
+}
 
-        <!-- Anirudh's card -->
-        <th valign="middle" align="center">
-          <div class="ocard">
-            <img
-              src="AniSquare.jpeg"
-              alt="Anirudh Ramadurai"
-              style="width:100%; height:80%"
-            />
-            <div class="container">
-              <h4><b>Anirudh Ramadurai</b></h4>
-              <p class="caption">VP & Co Founder <br /><br /></p>
-            </div>
-          </div>
-        </th>
-      </tr>
-    </table>
+#info {
+	margin: 0;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff
+}
 
-    <br /><br />
-    
-    <!-- Aparna's card -->
-    <table class="challenges">
-      <tr>
-        <th valign="middle" align="center">
-          <div class="mcard">
-            <img
-              class="profilepics"
-              src="AparnaSquare.jpeg"
-              alt="Aparna Basavapatna"
-              style="width:100%"
-            />
-            <div class="container">
-              <h4><b>Aparna G.B.</b></h4>
-              <p class="caption"></p>
-            </div>
-          </div>
-        </th>
-        
- <!-- Charmi's card -->
-       <th valign="middle" align="center">
-        <div class="mcard">
-          <img
-            class="profilepics"
-            src="CharmiSquare.jpg"
-            alt="Charmi Athuluru"
-            style="width:100%"
-          />
-          <div class="container">
-            <h4><b>Charmi Athuluru</b></h4>
-            <p class="caption"></p>
-          </div>
-        </div>
-      </th>
-      
-    <!-- Kelly's card -->
-        <th valign="middle" align="center">
-          <div class="mcard">
-            <img
-              class="profilepics"
-              src="KellySquare.jpeg"
-              alt="Kelly Lin"
-              style="width:100%"
-            />
-            <div class="container">
-              <h4><b>Kelly Lin</b></h4>
-              <p class="caption"></p>
-            </div>
-          </div>
-        </th>
-      </tr>
-      </table>
+#amcsquare{
+  width:150px;
+  height:auto;
+  padding: 20px;
+vertical-align: text-top;
+}
+#amcp{
+  color:white;
+}
+#Dellgif{
+  width: 50%;
+  margin-top:1%;
+  border-radius: 20px 20px 20px 20px;
+}
+#firstheading{
+  margin-top: 5%;
+}
+body, html {
+  height: 100%;
+}
 
-    <!--KELLYS PICTURE IS JUST A PLACEHOLDER-->
+#dellparallax {
+  /* The image used */
+  background-image: url('DellRecording.gif');
 
-      <!-- Keshav's card -->
-      <table class="challenges">
-       <tr>
-        <th valign="middle" align="center">
-          <div class="mcard">
-            <a href="https://www.instagram.com/keshav.garg7/">
-            <img
-              class="profilepics"
-              src="KeshavSquare.jpeg"
-              alt="Keshav Garg"
-              style="width:100%"
-            /></a>
-            <div class="container">
-              <h4><b>Keshav Garg</b></h4>
-              <p class="caption"></p>
-            </div>
-          </div>
-        </th>
-  
-      <!-- Mariam's card -->
-      <th valign="middle" align="center">
-        <div class="mcard">
-          <img
-            class="profilepics"
-            src="MariamSquare.jpg"
-            alt="Mariam Shorab"
-            style="width:100%"
-          />
-          <div class="container">
-            <h4><b>Mariam Shorab</b></h4>
-            <p class="caption"></p>
-          </div>
-        </div>
-      </th>
+  /* Full height */
+  height: 100%;
 
-      <!-- Vincent's card -->
-      <th valign="middle" align="center">
-        <div class="mcard">
-          <img
-            class="profilepics"
-            src="VincentSquare.jpg"
-            alt="Vincent Li"
-            style="width:100%"
-          />
-          <div class="container">
-            <h4><b>Vincent Li</b></h4>
-            <p class="caption"></p>
-          </div>
-        </div>
-      </th>
-        </tr>
-    </table>
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#TIparallax {
+  /* The image used */
+  background-image: url('TIrecording.gif');
 
-<script src="scripts.js"></script>
-  </body>
-</html>
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFFFFF
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;opacity: 0.9; filter: alpha(opacity=50);
+	z-index:1000;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ff0000;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #ff0000;
+  color: white;
+	z-index:1000;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.challenges {
+  width:100%;
+    display: inline; /* Or inline-block */
+}
+#challenges{
+width:90%;
+margin-left: auto;
+  margin-right: auto;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+h1 {text-align: center; color: #FFFFFF;}
+h2 {text-align: center; color: #FFFFFF;}
+p {text-align: center;}
+h4 {font-size: 24px;}
+
+#ourteam{
+  color:black;
+  font-size:50px;
+  text-align: center;
+}
+#githubhead{
+  color: #FFFFFF;
+  text-align: left;
+  margin-top: 30px;
+  font-size: 60px;
+  font-weight:bold;
+}
+#topaboutus{
+  margin-top:80px;
+}
+.dellheading{
+  color: #FFFFFF;
+  opacity:0.8;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 60px;
+  font-weight:bold;
+}
+
+#TI{
+  margin-top:5%;
+  background-color: red; /* For browsers that do not support gradients */
+ background-image: linear-gradient(to bottom right, red, orange);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2 {
+  margin:auto;
+  padding:350px;
+}
+#schedule{
+  color:black;
+  font-weight:normal;
+}
+/*INFO PAGE*/
+.infocard {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 90%;
+  margin:auto;
+  border-radius: 20px;
+}
+.infoh2{
+  text-align: center;
+  padding: 15px;
+  font-size: 36px;
+  color:black;
+}
+.infop{
+  text-align: center;
+  padding: 15px;
+  font-size:24px;
+  color:black;
+
+}
+.infoh1{
+  text-align: center;
+  padding: 15px;
+  font-size:48px;
+  font-weight:normal;
+  color:black;
+}
+.infoa{
+  color:red;
+}
