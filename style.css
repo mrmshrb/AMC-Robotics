@@ -1,3 +1,4 @@
+/* ABOUT US */
 .ocard {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
   transition: 0.3s;
@@ -20,7 +21,19 @@
 .mcard:hover {
   box-shadow: 0 16px 32px 0 rgba(0,0,0,1);
 }
-/* Homepage Cards */
+.profilepics {
+  width:300px;
+  height:auto;
+  border-radius: 20px 20px 0 0;
+}
+.container {
+  padding: 2px 16px;
+}
+
+.caption{
+font-size: 14px;
+}
+/* HOMEPAGE */
 .card {
   box-shadow: 0 20px 40px 0 rgba(255,0,0,0.9);
   transition: 0.3s;
@@ -46,26 +59,7 @@
   margin:auto;
   height:100px
 }
-.infocard1 {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
-  transition: 0.3s;
-  width: 50%;
-  border-radius: 2px;
-}
 
-.infocard2 {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
-  transition: 0.3s;
-  width: 50%;
-  border-radius: 2px;
-}
-
-.infocard3 {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
-  transition: 0.3s;
-  width: 50%;
-  border-radius: 2px;
-}
 .card:hover {
   box-shadow: 0 64px 128px 0 rgba(255,0,0,1);
 }
@@ -75,19 +69,7 @@
 #widecard2:hover {
   box-shadow: 0 64px 128px 0 rgba(255,0,0,1);
 }
-/* Curvature for all cards */
-.profilepics {
-  width:300px;
-  height:auto;
-  border-radius: 20px 20px 0 0;
-}
-.container {
-  padding: 2px 16px;
-}
 
-.caption{
-font-size: 14px;
-}
 .home{
 	margin: 0;
   font-size: 28px;
@@ -215,9 +197,6 @@ a{
   color: white;
   text-decoration: none;
 }
-a:visited {
-  color: white;
-}
 
 /* mouse over link */
 a:hover {
@@ -231,7 +210,9 @@ a:active {
 
 h1 {text-align: center; color: #FFFFFF;}
 h2 {text-align: center; color: #FFFFFF;}
+p {text-align: center;}
 h4 {font-size: 24px;}
+
 #ourteam{
   color:black;
   font-size:50px;
@@ -270,4 +251,72 @@ h4 {font-size: 24px;}
 .centered2 {
   margin:auto;
   padding:350px;
+}
+#schedule{
+  color:black;
+  font-weight:normal;
+}
+/*INFO PAGE*/
+.infocard {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  width: 90%;
+  margin:auto;
+  border-radius: 20px;
+}
+.infoh2{
+  text-align: center;
+  padding: 10px;
+  font-size: 36px;
+  font-weight:normal;
+  color:black;
+}
+.infop{
+  text-align: center;
+  padding: 10px;
+  font-size:24px;
+  color:black;
+  font-weight:lighter;
+
+}
+.infoh1{
+  text-align: left;
+  padding: 15px;
+  font-size:120px;
+  color:black;
+}
+.infoh2h{
+  text-align: left;
+  padding: 10px;
+  font-size: 72px;
+  font-weight:normal;
+  color:black;
+}
+.infoa{
+  color:black;
+}
+.infoa:hover{
+  color:red;
+}
+
+.infomisc{
+  width:100%;
+  margin-top:60px;
+}
+#infoheading{
+  width:100%;
+  background-color:red;
+}
+#infoparallax{
+  /* The image used */
+  background-image: url('Info Proto.svg');
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
